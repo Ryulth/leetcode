@@ -28,10 +28,6 @@ fun main(args: Array<String>) {
     }
 }
 
-class ListNode(var `val`: Int) {
-    var next: ListNode? = null
-}
-
 class LeetCode2 {
     fun addTwoNumbers(l1: ListNode?, l2: ListNode?): ListNode? {
         val result: ListNode = ListNode(-1)
