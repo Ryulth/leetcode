@@ -7,6 +7,7 @@ fun main(args: Array<String>) {
 
 class LeetCode36 {
     fun combinationSum(candidates: IntArray, target: Int): List<List<Int>> {
+        candidates.sort()
         val res = mutableSetOf<List<Int>>()
         sum(candidates, target, mutableListOf(), res)
         return res.toList()
