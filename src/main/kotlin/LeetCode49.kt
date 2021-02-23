@@ -1,11 +1,11 @@
 fun main(args: Array<String>) {
-    val instance = LeetCode49()
+    val instance = LeetCode49kt()
     val input = arrayOf("eat", "tea", "tan", "ate", "nat", "bat")
     val res = instance.groupAnagrams(input)
     println(res)
 }
 
-class LeetCode49 {
+class LeetCode49kt {
     fun groupAnagrams(strs: Array<String>): List<List<String>> {
         val res = hashMapOf<String, MutableList<String>>()
         strs.forEach {

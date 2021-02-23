@@ -18,7 +18,7 @@ fun main(args: Array<String>) {
     val l2 = ListNode(5)
     l2.next = ListNode(6)
     l2.next!!.next = ListNode(4)
-    val instance = LeetCode2()
+    val instance = LeetCode2kt()
     val res = instance.addTwoNumbers(l1, l2)
     println(res)
     var currentNode = res
@@ -28,7 +28,7 @@ fun main(args: Array<String>) {
     }
 }
 
-class LeetCode2 {
+class LeetCode2kt {
     fun addTwoNumbers(l1: ListNode?, l2: ListNode?): ListNode? {
         val result: ListNode = ListNode(-1)
         var currentL1 = l1
